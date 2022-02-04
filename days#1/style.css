@@ -1,0 +1,121 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgb(69,80,165);
+  background: linear-gradient(36deg, rgba(69,80,165,1) 0%, rgba(73,129,181,1) 45%, rgba(0,212,255,1) 100%);
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.center .hundred {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  left: -50px;
+  top: 17px;
+}
+
+.center .hundred  .one {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+.center .hundred .one .vertical {
+  background-color: #fff;
+  width: 50px;
+  height: 25px;
+  border-radius: 3px;
+  transform: rotate(-35deg);
+  box-shadow: 0 0 10px -5px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0 0 10px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 0 10px -5px rgba(0,0,0,0.75);
+}
+
+.center .hundred .one .horizontal {
+  background-color: #fff;
+  width: 100px;
+  height: 25px;
+  border-radius: 3px;
+  transform: rotate(90deg);
+  position: relative;
+  top: 26px;
+  left: -52px;
+  box-shadow: 0 0 10px -5px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0 0 10px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 0 10px -5px rgba(0,0,0,0.75);
+}
+
+.center .hundred .circle--one {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border: 25px solid #fff;
+    border-radius: 50%;
+    margin-left: -35px;
+    box-shadow: 0 0 10px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0 0 10px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0 0 10px -3px rgba(0,0,0,0.75);
+}
+
+.center .hundred .circle--two {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border: 25px solid #fff;
+    border-radius: 50%;
+    z-index: -1;
+    margin-left: -20px;
+    box-shadow: -5px -2px 8px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: -5px -2px 8px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px -2px 8px -3px rgba(0,0,0,0.75);
+}
+
+.days {
+  color: #fff;
+  font-size: 4.9em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.css {
+  color: #fff;
+  font-size: 1.46em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 0;
+}
+
