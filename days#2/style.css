@@ -1,0 +1,70 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #52AF82;
+  width: 400px;
+  height: 400px;
+}
+
+.humberger_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.humberger_button span {
+  background-color: #fff;
+  width: 80px;
+  height: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 9px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0 0 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0 0 9px 0px rgba(0,0,0,0.75);
+}
+
+/*.humberger_button .active:nth-child(1) {
+  transform: rotate(50deg);
+  position: relative;
+  top: 20px;
+}
+
+.humberger_button .active:nth-child(1) {
+  overflow: hidden
+}
+
+.humberger_button .active:nth-child(3) {
+  transform: rotate(-50deg);
+  position: relative;
+  top: -20px;
+}
+*/
